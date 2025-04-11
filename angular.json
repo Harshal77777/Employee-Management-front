@@ -34,7 +34,7 @@
               "node_modules/ngx-bootstrap/datepicker/bs-datepicker.css"
             ],
             "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
             ],
             "server": "src/main.server.ts",
             "outputMode": "server",
@@ -62,26 +62,6 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
-            }
-          },
-          "defaultConfiguration": "production"
-        },
-        "server": {
-          "builder": "@angular-devkit/build-angular:server",
-          "options": {
-            "outputPath": "dist/employee-management/server",
-            "main": "src/main.server.ts",
-            "tsConfig": "tsconfig.server.json"
-          },
-          "configurations": {
-            "production": {
-              "outputHashing": "media",
-              "sourceMap": false,
-              "optimization": true
-            },
-            "development": {
-              "sourceMap": true,
-              "optimization": false
             }
           },
           "defaultConfiguration": "production"
