@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --configuration production",  // updated
-    "build:ssr": "ng build --configuration production && ng run employee-management:server:production",  // 🆕 added
+    "build": "ng build --configuration production",  
+    "build:ssr": "ng build --configuration production && ng run employee-management:server:production",  
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:employee-management": "node dist/employee-management/server/server.mjs"
