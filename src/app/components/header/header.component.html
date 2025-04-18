@@ -7,7 +7,7 @@
   </div>
 
   <div class="Left-bar">
-    <span *ngIf="!authService.isLoggedIn">Employee Management Application</span>
+    <span *ngIf="!authService.isLoggedIn">Employee Management System</span>
     <span *ngIf="authService.isLoggedIn">
       <span *ngIf="authService.isAdmin; else employeeDashboard">Admin Dashboard</span>
       <ng-template #employeeDashboard>Employee Dashboard</ng-template>
